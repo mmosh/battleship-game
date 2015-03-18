@@ -2,8 +2,8 @@
 //  GameViewController.m
 //  Battleship Game
 //
-//  Created by Max on 18/03/2015.
-//  Copyright (c) 2015 Max. All rights reserved.
+//  Created by Max on 11/03/2015.
+//  Copyright (c) 2015 newcastlecv. All rights reserved.
 //
 
 #import "GameViewController.h"
@@ -36,8 +36,8 @@
 
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    skView.showsFPS = NO;
+    skView.showsNodeCount = NO;
     /* Sprite Kit applies additional optimizations to improve rendering performance */
     skView.ignoresSiblingOrder = YES;
     

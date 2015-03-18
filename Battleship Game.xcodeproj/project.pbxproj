@@ -16,6 +16,11 @@
 		50850BB41AB90436002DD338 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50850BB31AB90436002DD338 /* Images.xcassets */; };
 		50850BB71AB90436002DD338 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50850BB51AB90436002DD338 /* LaunchScreen.xib */; };
 		50850BC31AB90436002DD338 /* Battleship_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BC21AB90436002DD338 /* Battleship_GameTests.m */; };
+		50850BD71AB9055E002DD338 /* AI.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BCD1AB9055E002DD338 /* AI.m */; };
+		50850BD81AB9055E002DD338 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BD01AB9055E002DD338 /* Game.m */; };
+		50850BD91AB9055E002DD338 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BD21AB9055E002DD338 /* Ship.m */; };
+		50850BDA1AB9055E002DD338 /* Signal.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BD41AB9055E002DD338 /* Signal.m */; };
+		50850BDB1AB9055E002DD338 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BD61AB9055E002DD338 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,17 @@
 		50850BBC1AB90436002DD338 /* Battleship GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battleship GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50850BC11AB90436002DD338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50850BC21AB90436002DD338 /* Battleship_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Battleship_GameTests.m; sourceTree = "<group>"; };
+		50850BCC1AB9055E002DD338 /* AI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AI.h; sourceTree = "<group>"; };
+		50850BCD1AB9055E002DD338 /* AI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AI.m; sourceTree = "<group>"; };
+		50850BCE1AB9055E002DD338 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		50850BCF1AB9055E002DD338 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		50850BD01AB9055E002DD338 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		50850BD11AB9055E002DD338 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		50850BD21AB9055E002DD338 /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		50850BD31AB9055E002DD338 /* Signal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Signal.h; sourceTree = "<group>"; };
+		50850BD41AB9055E002DD338 /* Signal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Signal.m; sourceTree = "<group>"; };
+		50850BD51AB9055E002DD338 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		50850BD61AB9055E002DD338 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +102,17 @@
 		50850BA01AB90436002DD338 /* Battleship Game */ = {
 			isa = PBXGroup;
 			children = (
+				50850BCC1AB9055E002DD338 /* AI.h */,
+				50850BCD1AB9055E002DD338 /* AI.m */,
+				50850BCE1AB9055E002DD338 /* Cell.h */,
+				50850BCF1AB9055E002DD338 /* Game.h */,
+				50850BD01AB9055E002DD338 /* Game.m */,
+				50850BD11AB9055E002DD338 /* Ship.h */,
+				50850BD21AB9055E002DD338 /* Ship.m */,
+				50850BD31AB9055E002DD338 /* Signal.h */,
+				50850BD41AB9055E002DD338 /* Signal.m */,
+				50850BD51AB9055E002DD338 /* User.h */,
+				50850BD61AB9055E002DD338 /* User.m */,
 				50850BA51AB90436002DD338 /* AppDelegate.h */,
 				50850BA61AB90436002DD338 /* AppDelegate.m */,
 				50850BA81AB90436002DD338 /* GameScene.h */,
@@ -229,8 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				50850BAF1AB90436002DD338 /* GameViewController.m in Sources */,
+				50850BDA1AB9055E002DD338 /* Signal.m in Sources */,
+				50850BDB1AB9055E002DD338 /* User.m in Sources */,
+				50850BD71AB9055E002DD338 /* AI.m in Sources */,
 				50850BA71AB90436002DD338 /* AppDelegate.m in Sources */,
+				50850BD81AB9055E002DD338 /* Game.m in Sources */,
 				50850BAA1AB90436002DD338 /* GameScene.m in Sources */,
+				50850BD91AB9055E002DD338 /* Ship.m in Sources */,
 				50850BA41AB90436002DD338 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
