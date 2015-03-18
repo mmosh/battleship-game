@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50850BA41AB90436002DD338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BA31AB90436002DD338 /* main.m */; };
+		50850BA71AB90436002DD338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BA61AB90436002DD338 /* AppDelegate.m */; };
+		50850BAA1AB90436002DD338 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BA91AB90436002DD338 /* GameScene.m */; };
+		50850BAC1AB90436002DD338 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 50850BAB1AB90436002DD338 /* GameScene.sks */; };
+		50850BAF1AB90436002DD338 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BAE1AB90436002DD338 /* GameViewController.m */; };
+		50850BB21AB90436002DD338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50850BB01AB90436002DD338 /* Main.storyboard */; };
+		50850BB41AB90436002DD338 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50850BB31AB90436002DD338 /* Images.xcassets */; };
+		50850BB71AB90436002DD338 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50850BB51AB90436002DD338 /* LaunchScreen.xib */; };
+		50850BC31AB90436002DD338 /* Battleship_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50850BC21AB90436002DD338 /* Battleship_GameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50850BBD1AB90436002DD338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50850B961AB90436002DD338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50850B9D1AB90436002DD338;
+			remoteInfo = "Battleship Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50850B9E1AB90436002DD338 /* Battleship Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battleship Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50850BA21AB90436002DD338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50850BA31AB90436002DD338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50850BA51AB90436002DD338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50850BA61AB90436002DD338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50850BA81AB90436002DD338 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		50850BA91AB90436002DD338 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		50850BAB1AB90436002DD338 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		50850BAD1AB90436002DD338 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		50850BAE1AB90436002DD338 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		50850BB11AB90436002DD338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50850BB31AB90436002DD338 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50850BB61AB90436002DD338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50850BBC1AB90436002DD338 /* Battleship GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battleship GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50850BC11AB90436002DD338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50850BC21AB90436002DD338 /* Battleship_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Battleship_GameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50850B9B1AB90436002DD338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50850BB91AB90436002DD338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50850B951AB90436002DD338 = {
+			isa = PBXGroup;
+			children = (
+				50850BA01AB90436002DD338 /* Battleship Game */,
+				50850BBF1AB90436002DD338 /* Battleship GameTests */,
+				50850B9F1AB90436002DD338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50850B9F1AB90436002DD338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50850B9E1AB90436002DD338 /* Battleship Game.app */,
+				50850BBC1AB90436002DD338 /* Battleship GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50850BA01AB90436002DD338 /* Battleship Game */ = {
+			isa = PBXGroup;
+			children = (
+				50850BA51AB90436002DD338 /* AppDelegate.h */,
+				50850BA61AB90436002DD338 /* AppDelegate.m */,
+				50850BA81AB90436002DD338 /* GameScene.h */,
+				50850BA91AB90436002DD338 /* GameScene.m */,
+				50850BAB1AB90436002DD338 /* GameScene.sks */,
+				50850BAD1AB90436002DD338 /* GameViewController.h */,
+				50850BAE1AB90436002DD338 /* GameViewController.m */,
+				50850BB01AB90436002DD338 /* Main.storyboard */,
+				50850BB31AB90436002DD338 /* Images.xcassets */,
+				50850BB51AB90436002DD338 /* LaunchScreen.xib */,
+				50850BA11AB90436002DD338 /* Supporting Files */,
+			);
+			path = "Battleship Game";
+			sourceTree = "<group>";
+		};
+		50850BA11AB90436002DD338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50850BA21AB90436002DD338 /* Info.plist */,
+				50850BA31AB90436002DD338 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50850BBF1AB90436002DD338 /* Battleship GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				50850BC21AB90436002DD338 /* Battleship_GameTests.m */,
+				50850BC01AB90436002DD338 /* Supporting Files */,
+			);
+			path = "Battleship GameTests";
+			sourceTree = "<group>";
+		};
+		50850BC01AB90436002DD338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50850BC11AB90436002DD338 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50850B9D1AB90436002DD338 /* Battleship Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50850BC61AB90436002DD338 /* Build configuration list for PBXNativeTarget "Battleship Game" */;
+			buildPhases = (
+				50850B9A1AB90436002DD338 /* Sources */,
+				50850B9B1AB90436002DD338 /* Frameworks */,
+				50850B9C1AB90436002DD338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battleship Game";
+			productName = "Battleship Game";
+			productReference = 50850B9E1AB90436002DD338 /* Battleship Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50850BBB1AB90436002DD338 /* Battleship GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50850BC91AB90436002DD338 /* Build configuration list for PBXNativeTarget "Battleship GameTests" */;
+			buildPhases = (
+				50850BB81AB90436002DD338 /* Sources */,
+				50850BB91AB90436002DD338 /* Frameworks */,
+				50850BBA1AB90436002DD338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50850BBE1AB90436002DD338 /* PBXTargetDependency */,
+			);
+			name = "Battleship GameTests";
+			productName = "Battleship GameTests";
+			productReference = 50850BBC1AB90436002DD338 /* Battleship GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50850B961AB90436002DD338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Max;
+				TargetAttributes = {
+					50850B9D1AB90436002DD338 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					50850BBB1AB90436002DD338 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 50850B9D1AB90436002DD338;
+					};
+				};
+			};
+			buildConfigurationList = 50850B991AB90436002DD338 /* Build configuration list for PBXProject "Battleship Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50850B951AB90436002DD338;
+			productRefGroup = 50850B9F1AB90436002DD338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50850B9D1AB90436002DD338 /* Battleship Game */,
+				50850BBB1AB90436002DD338 /* Battleship GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50850B9C1AB90436002DD338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50850BB71AB90436002DD338 /* LaunchScreen.xib in Resources */,
+				50850BB41AB90436002DD338 /* Images.xcassets in Resources */,
+				50850BAC1AB90436002DD338 /* GameScene.sks in Resources */,
+				50850BB21AB90436002DD338 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50850BBA1AB90436002DD338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50850B9A1AB90436002DD338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50850BAF1AB90436002DD338 /* GameViewController.m in Sources */,
+				50850BA71AB90436002DD338 /* AppDelegate.m in Sources */,
+				50850BAA1AB90436002DD338 /* GameScene.m in Sources */,
+				50850BA41AB90436002DD338 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50850BB81AB90436002DD338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50850BC31AB90436002DD338 /* Battleship_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50850BBE1AB90436002DD338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50850B9D1AB90436002DD338 /* Battleship Game */;
+			targetProxy = 50850BBD1AB90436002DD338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50850BB01AB90436002DD338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50850BB11AB90436002DD338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50850BB51AB90436002DD338 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50850BB61AB90436002DD338 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50850BC41AB90436002DD338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50850BC51AB90436002DD338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50850BC71AB90436002DD338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Battleship Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50850BC81AB90436002DD338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Battleship Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50850BCA1AB90436002DD338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Battleship GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battleship Game.app/Battleship Game";
+			};
+			name = Debug;
+		};
+		50850BCB1AB90436002DD338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Battleship GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battleship Game.app/Battleship Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50850B991AB90436002DD338 /* Build configuration list for PBXProject "Battleship Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50850BC41AB90436002DD338 /* Debug */,
+				50850BC51AB90436002DD338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50850BC61AB90436002DD338 /* Build configuration list for PBXNativeTarget "Battleship Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50850BC71AB90436002DD338 /* Debug */,
+				50850BC81AB90436002DD338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50850BC91AB90436002DD338 /* Build configuration list for PBXNativeTarget "Battleship GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50850BCA1AB90436002DD338 /* Debug */,
+				50850BCB1AB90436002DD338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50850B961AB90436002DD338 /* Project object */;
+}
